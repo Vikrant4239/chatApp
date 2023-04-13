@@ -13,6 +13,10 @@ const Chat=sequelize.define('chat',{
      type:Sequelize.STRING,
      allowNull:false
     },
+    time: {
+      type: Sequelize.BIGINT,
+      allowNull: false
+  },
     signupName:{
      type:Sequelize.STRING,
      allowNull:false
