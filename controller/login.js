@@ -10,8 +10,8 @@ function validatestring(string){
     }
 }
 
-function generateToken(id,name){
-  return jwt.sign({userid:id,name:name},process.env.TOKEN_SECRET);
+function generateToken(id,nam){
+  return jwt.sign({userid:id,nam:nam},process.env.TOKEN_SECRET);
 }
 
 exports.login= async (req,res,next)=>{
@@ -28,7 +28,7 @@ exports.login= async (req,res,next)=>{
             }
             else if(result===true){
             res.status(201).json({ success: true, message:"user logged successfully"
-          ,token:generateToken(user[0].id,user[0].name)})
+          ,token:generateToken(user[0].id,user[0].nam)})
             }
     
             else{

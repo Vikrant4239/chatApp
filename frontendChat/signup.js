@@ -8,7 +8,7 @@ async function signup(e){
              Phonenumber:e.target.Phonenumber.value,
              password:e.target.password.value
            }
- 
+       console.log(signupdetails);    
      const response= await axios.post("http://localhost:4000/users/signup", signupdetails)
      if(response.status==201){
       window.location.href="./login.html"
