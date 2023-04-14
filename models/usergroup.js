@@ -19,7 +19,9 @@ const UserGroup = sequelize.define('usergroup', {
       model: 'user',
       key: 'id'
     }
-  }
+}
+
 });
 
-module.exports =UserGroup;
+
+module.exports = UserGroup;
