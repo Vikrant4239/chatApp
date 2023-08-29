@@ -160,3 +160,9 @@ createGroupForm.addEventListener('submit', async(event) => {
       alert('Please fill out all fields.');
     }
   });
+  let btnlg=document.getElementById('lg');
+  btnlg.addEventListener('click',(e)=>{
+    e.preventDefault();
+    alert('logged out successfully');
+    window.location.href="./login.html"
+  })

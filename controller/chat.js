@@ -22,7 +22,7 @@ exports.postchat = async (req, res, next) => {
 exports.getchat = async (req, res, next) => {
     try {
         const currentTime = req.query.currenttime;
-        const groupId = req.query.groupid || null; // set groupId to null if it is not provided in the query params
+        const groupId = req.query.groupid || null; 
         const messages = await Chat.findAll({
       where: {
         time: {

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('/sb2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+
+}
+
+
+#form-group{
+    margin-top: 150px;
+    
+    width: 40%;
+    
+}
+
+.form-control{
+    border: 1px solid grey;
+    background-color: rgb(105, 105, 105);
+    color: rgb(106, 0, 0);
+}
+#btnx{
+    background-color: black;
+    color: white;
+}
+#btnl{
+    margin-top: 15px;
+    background-color: grey;
+    color: rgb(102, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 238px;
+}
+h4{
+    color: rgb(102, 0, 0);
+    margin-bottom: 25px;
+    background-color: grey;
+    border: 1px solid rgb(105, 0, 0);
+    font-weight: bolder;
+    border-right: 10px;
+    border-radius: 50px;
+    text-align: center;
+}

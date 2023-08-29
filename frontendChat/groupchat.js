@@ -115,3 +115,10 @@ intervalId = setInterval(getmessages, 1000);
 }
 
 startUpdatingMessages();
+
+let btnlg=document.getElementById('lg');
+btnlg.addEventListener('click',(e)=>{
+  e.preventDefault();
+  alert('logged out successfully');
+  window.location.href="./login.html"
+})

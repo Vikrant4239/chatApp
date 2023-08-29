@@ -49,3 +49,9 @@ sequelize
 .catch(err=>{
     console.log(err);
 });
+
+
+
+// Your existing middleware and route setup here...
+
+
